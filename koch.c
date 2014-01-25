@@ -4,7 +4,7 @@
 #define HEIGHT 500
 #define WIDTH 500
 
-void hex2float(int color, float *colorSpace);
+void hex2float(int color, float *colorSpace); /*converts hex code to color for cairo */
 void drawGen(cairo_t *cr, int size, int its, int current);
 void set_color(cairo_t *cr, int color);
 
